@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Generated data / output
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Next.js
+.next/
+out/
+
+# Misc
+.DS_Store
+Thumbs.db
